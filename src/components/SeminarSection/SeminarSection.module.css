@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.container {
+    background: url('./../../img/section_background.jpeg') no-repeat;
+    background-size: cover;
+    text-align: center;
+    background-position: top;
+}
+
+.container__title {
+    padding-top: 50px;
+    font-size: 21px;
+    font-family: 'Roboto';
+    color: rgb(254, 252, 252);
+    line-height: 0.971;
+    text-align: center;
+    text-shadow: 0px 15px 26.1px rgba(0, 85, 150, 0.41);
+
+    margin-bottom: 0;
+}
+
+.container__description {
+        text-align: center;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(254, 252, 252);
+    line-height: 0.971;
+    text-align: center;
+    margin: 0;
+    margin-top: 10px;
+}
+.container__description2.container__description {
+    margin-top: 20px;
+}
+.container__description span {
+    color: #0f67a9;
+}
+
+.container__button {
+    width:100px;
+    height: 40px;
+    border: none;
+    font-family: 'Roboto', sans-serif;
+    margin: 0 auto;
+    color: rgb(254, 252, 252);
+    border-radius: 16px;
+    background-image: -moz-linear-gradient(
+        90deg,
+        rgb(0, 56, 103) 0%,
+        rgb(0, 91, 160) 100%
+    );
+    background-image: -webkit-linear-gradient(
+        90deg,
+        rgb(0, 56, 103) 0%,
+        rgb(0, 91, 160) 100%
+    );
+    background-image: -ms-linear-gradient(
+        90deg,
+        rgb(0, 56, 103) 0%,
+        rgb(0, 91, 160) 100%
+    );
+    background-image: linear-gradient(
+        90deg,
+        rgb(0, 56, 103) 0%,
+        rgb(0, 91, 160) 100%
+    );
+    margin:50px 0;
+}
+
+
