@@ -5,6 +5,8 @@ import SheduleTape from './components/SheduleTape'
 import Dates from './components/Dates'
 import Footer from './components/Footer'
 import WhatsApp from './components/WhatsApp'
+import VoteHeader from './components/VoteHeader'
+import VoteBody from './components/VoteBody'
 
 const App = () => {
     return (
@@ -14,6 +16,8 @@ const App = () => {
             <SheduleTape />
             <Dates />
             <WhatsApp />
+            <VoteHeader />
+            <VoteBody />
             <Footer />
         </>
     )
